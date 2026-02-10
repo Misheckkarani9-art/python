@@ -3,8 +3,8 @@
 # Use the same function inside of a loop to calculate two other simple interests. Note use your own principal, rate and time.
 
 def interest (principal , rate ,time):
-    interest =
+    interest= (principal*rate*time/100)
     principal =45000
     rate = 7
     time =8
-interest()
+interest(f"{interest}")
